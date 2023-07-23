@@ -1,0 +1,133 @@
+body {
+    background-color: antiquewhite;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.songName {
+    font-size: 0.8rem;
+}
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: black;
+    color: white;
+
+}
+
+nav ul li {
+    padding: 0px 12px;
+
+}
+
+.brand img {
+    width: 39px;
+    padding: 0px 4px;
+}
+
+.brand {
+    display: flex;
+    font-weight: bold;
+    font-size: 1.6rem;
+    align-items: center;
+}
+
+.container {
+    min-height: 71vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+    display: flex;
+    margin: 12px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px auto;
+    background-image: url("bg.jpg");
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+}
+
+.Bottom {
+    display: flex;
+    position: sticky;
+    background-color: black;
+    height: 120px;
+    bottom: 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin: 12px 12px;
+    font-size:2rem;
+}
+
+#myProgressBar {
+    width:95vw;
+    cursor: pointer;
+}
+ .songItemcontainer{
+    margin-top: 32px;
+    position: sticky;
+ }
+.songItem {
+    height: 36px;
+    width: 147%;
+    background-color: white;
+    display: flex;
+    color: #000000;
+    margin: 9px 0px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(190, 212, 190);
+    border-radius: 20px;
+    position: relative;
+    left: -260px;
+      
+      
+}
+
+
+.songItem img {
+    width: 30px;
+    margin: 12px 0;
+    padding: 12px 10px;
+    height: 30px;
+    border-radius: 75px;
+
+}
+
+.timestamp {
+    margin: 0 35px;
+    font-size: 10px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 5vw;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+.songinfo img{
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
